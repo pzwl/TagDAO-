@@ -1,10 +1,10 @@
 # TagDAO
 
-TagDAO is a decentralized data labeling platform built on Web3 principles. It provides a crowdsourced marketplace for labeling tasks, integrated with crypto payments (using Solana) and secure file handling (via AWS S3). The goal is to offer a transparent, scalable solution for machine learning data labeling, with global accessibility and fair compensation for workers.
+TagDAO is a decentralized data labeling platform built on Web3 principles. It provides a crowdsourced marketplace for labeling tasks, integrated with crypto payments (using Solana) and secure file han[...]
 
 ## Overview
 
-This platform allows requesters to create labeling tasks, set rewards in cryptocurrency, and manage data uploads securely. Workers can then label data and receive crypto payments upon completion. The application is designed with the following key elements in mind:
+This platform allows requesters to create labeling tasks, set rewards in cryptocurrency, and manage data uploads securely. Workers can then label data and receive crypto payments upon completion. The [...]
 
 - **Web3 Integration**: Leveraging Solana for transactions and payments.
 - **Secure File Handling**: Using AWS S3 with pre-signed URLs to manage file uploads and downloads.
@@ -29,7 +29,7 @@ This platform allows requesters to create labeling tasks, set rewards in cryptoc
 
 1. **Clone the Repository**
 
-    ```
+    ```bash
     git clone https://github.com/pzwl/TagDAO-.git
     cd TagDAO-
     ```
@@ -37,21 +37,21 @@ This platform allows requesters to create labeling tasks, set rewards in cryptoc
 2. **Install Dependencies for Each Directory**
 
     **Backend**:
-    ```
+    ```bash
     cd backend
     npm install
     ```
     *(or `yarn install` if you use Yarn)*
 
     **User Frontend**:
-    ```
+    ```bash
     cd ../user-frontend
     npm install
     ```
     *(or `yarn install` if you use Yarn)*
 
     **Worker Frontend**:
-    ```
+    ```bash
     cd ../worker-frontend
     npm install
     ```
@@ -65,7 +65,7 @@ This platform allows requesters to create labeling tasks, set rewards in cryptoc
 
 1. **Start the Backend**
 
-    ```
+    ```bash
     cd backend
     npm run dev
     ```
@@ -73,7 +73,7 @@ This platform allows requesters to create labeling tasks, set rewards in cryptoc
 
 2. **Run the User Frontend**
 
-    ```
+    ```bash
     cd ../user-frontend
     npm start
     ```
@@ -81,7 +81,7 @@ This platform allows requesters to create labeling tasks, set rewards in cryptoc
 
 3. **Run the Worker Frontend**
 
-    ```
+    ```bash
     cd ../worker-frontend
     npm start
     ```
@@ -90,7 +90,3 @@ This platform allows requesters to create labeling tasks, set rewards in cryptoc
 4. **Interacting with Solana**
     - Update the Solana cluster URL (e.g., devnet, testnet, mainnet) and wallet details in your environment variables.
     - Ensure the private key is securely managed (avoid storing it directly in code or public repos).
-
-
-
-
